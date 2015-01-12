@@ -133,7 +133,7 @@
                 <th>Date</th>
                 <th>Title</th>
                 <th>Instructor</th>
-                <th>Link</th>
+                <th>Links</th>
               </tr>
             </thead>
             <tbody>
@@ -199,7 +199,7 @@
                 <th>Date</th>
                 <th>Title</th>
                 <th>Instructor</th>
-                <th>Link</th>
+                <th>Links</th>
               </tr>
             </thead>  
             </tr>
@@ -208,7 +208,7 @@
                 <td>Jan 2015</td>
                 <td>An Introduction to Twitter Bootstrap: Web Development for Noobs</td>
                 <td>Ahmed Haque</td>
-                <td></td>
+                <td><a href="https://www.facebook.com/events/1603081809913353/">Facebook Event</a> | <a href="https://github.com/afhaque/Rice-DevChats-Bootstrap">Github Resources</a></td>
               </tr>
             </tbody>
           </table>
@@ -303,18 +303,22 @@
           <h3>This is a supercool subtitle!</h3>
         </div>
         <!-- Row for the Map -->
-        <div class="row"></div>
+        <div class="row">
+          <div id="map-canvas"></div> <!-- Google Maps -->
+        </div>
         <!-- Row for the Caption with email -->
-        <div class="row"></div>
+        <div class="row">But honestly, the best way to reach us is via email: <a href="admins@ricedevchats.org">admins@ricedevchats.org</a></div>
       </div>
 
       <hr> <!-- Horizontal Line -->
 
       <!-- Footer -->
     <div class="container">
-      <footer>
-        <p>&copy; Copyright 2015 Rice DevChats | Maintained by the Fine Students of Rice University </p>
-      </footer>
+      <div class="row">
+        <footer>
+          <p>&copy; Copyright 2015 Rice DevChats | Maintained by the Fine Students of Rice University </p>
+        </footer>
+      </div>
     </div> <!-- /container -->        
 
         <!-- Javascripts -->
@@ -324,6 +328,22 @@
         <script src="js/vendor/bootstrap.min.js"></script>
         <!-- Holder.js for placeholder images -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.4.1/holder.js"></script>
+
+        <!-- Google Maps API -->
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script>
+          function initialize() {
+            var mapCanvas = document.getElementById('map-canvas');
+            var mapOptions = {
+              scrollwheel: false,
+              center: new google.maps.LatLng(29.717394, -95.401831),
+              zoom: 15,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions)
+          }
+          google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>

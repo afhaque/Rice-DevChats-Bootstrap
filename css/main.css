@@ -4,6 +4,7 @@
    Author's custom styles
    ========================================================================== */
 
+/* Glyph Icons */
 @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot?-zcd1v2');
@@ -53,8 +54,11 @@
 	content: "\e605";
 }
 
-
-
+/* Google Maps */
+#map-canvas {
+	width: 100%;
+	height: 400px;
+}
 
 
 
