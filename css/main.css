@@ -32,11 +32,11 @@ h1, h2, h3, h4 {
 /* Glyph Icons */
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?-zcd1v2');
-	src:url('../fonts/icomoon.eot?#iefix-zcd1v2') format('embedded-opentype'),
-		url('../fonts/icomoon.woff?-zcd1v2') format('woff'),
-		url('../fonts/icomoon.ttf?-zcd1v2') format('truetype'),
-		url('../fonts/icomoon.svg?-zcd1v2#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?-hpph3a');
+	src:url('../fonts/icomoon.eot?#iefix-hpph3a') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-hpph3a') format('woff'),
+		url('../fonts/icomoon.ttf?-hpph3a') format('truetype'),
+		url('../fonts/icomoon.svg?-hpph3a#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -55,12 +55,28 @@ h1, h2, h3, h4 {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-console:before {
+	content: "\e606";
+}
+
 .icon-bubbles:before {
 	content: "\e600";
 }
 
 .icon-bubbles2:before {
 	content: "\e601";
+}
+
+.icon-users:before {
+	content: "\e607";
+}
+
+.icon-users2:before {
+	content: "\e608";
+}
+
+.icon-accessibility:before {
+	content: "\e609";
 }
 
 .icon-embed:before {
@@ -71,13 +87,15 @@ h1, h2, h3, h4 {
 	content: "\e603";
 }
 
-.icon-console:before {
+.icon-console2:before {
 	content: "\e604";
 }
 
 .icon-bubble:before {
 	content: "\e605";
 }
+
+
 
 /*=======================================================================*/
 
