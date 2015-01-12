@@ -10,7 +10,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        
+
+        <!-- Bootstrap Alts -->
+        <link rel="stylesheet" href="css/bootstrap_alts/yeti-bootstrap.min.css">
+
         <style>
             body {
                 padding-top: 50px;
@@ -26,7 +33,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -69,17 +76,17 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <h2>Heading</h2>
+          <h2>Learn.</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
+          <h2>Build.</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
+          <h2>Teach.</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
@@ -97,7 +104,7 @@
         </div>
         <!-- Row for the four images -->
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 left">
             <img src="holder.js/100%x225" class="thumbnail">
           </div>
           <div class="col-md-3">
@@ -112,7 +119,12 @@
         </div>
         <!-- Row for the text below the images -->
         <div class="row">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est ex, vestibulum eu tempor et, convallis et odio. Nullam porttitor feugiat metus, id vestibulum urna sodales dapibus. Aenean dapibus nisl dictum, viverra sem quis, viverra massa. Ut a tincidunt velit. Maecenas hendrerit aliquet ex. Ut sit amet venenatis augue. Suspendisse aliquet metus vel libero eleifend volutpat. In hac habitasse platea dictumst. Donec ornare scelerisque justo, at feugiat nisi faucibus ac. Morbi eleifend ultricies elit vitae euismod. Sed id libero non risus ultrices gravida.</p>
+          <div class="col-md-6 left">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est ex, vestibulum eu tempor et, convallis et odio. Nullam porttitor feugiat metus, id vestibulum urna sodales dapibus. Aenean dapibus nisl dictum, viverra sem quis, viverra massa. Ut a tincidunt velit. Maecenas hendrerit aliquet ex.</p>
+          </div>
+          <div class="col-md-6 right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est ex, vestibulum eu tempor et, convallis et odio. Nullam porttitor feugiat metus, id vestibulum urna sodales dapibus. Aenean dapibus nisl dictum, viverra sem quis, viverra massa. Ut a tincidunt velit. Maecenas hendrerit aliquet ex.</p>
+          </div>
         </div>
       </div>
 
@@ -128,58 +140,62 @@
         </div>
         <!-- Row for the Table -->
         <div class="row">
-          <table class="table table-hover table-bordered"> <!-- Class for Bootstrap Table with hover rows -->
-            <thead>
-              <tr>  <!-- Table header row -->
-                <th>Date</th>
-                <th>Title</th>
-                <th>Instructor</th>
-                <th>Links</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>  <!-- First table row -->
-                <td>Feb 2015</td>
-                <td>Data Visualization using Twitter API and Processing</td>
-                <td>Andrew Elsey</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Feb 2015</td>
-                <td>Jade Templating: Basic Website with Node.js Express and Jade</td>
-                <td>Andrew Elsey</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Mar 2015</td>
-                <td>An Introduction to AngularDart</td>
-                <td>Xiao Zheng</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Mar 2015</td>
-                <td>#OmgTooMuchData: NoSQL Databases in MongoDB using AWS EC2</td>
-                <td>Ahmed Haque</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Apr 2015</td>
-                <td>Electric Imp - Door to the Internet of Things?</td>
-                <td>Andrew Elsey</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Apr 2015</td>
-                <td>Intro to Programming Microcontrollers: Exploring ADC</td>
-                <td>Senthil Natarajan</td>
-                <td></td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="col-md-12">
+            <table class="table table-hover table-bordered"> <!-- Class for Bootstrap Table with hover rows -->
+              <thead>
+                <tr>  <!-- Table header row -->
+                  <th>Date</th>
+                  <th>Title</th>
+                  <th>Instructor</th>
+                  <th>Links</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>  <!-- First table row -->
+                  <td>Feb 2015</td>
+                  <td>Data Visualization using Twitter API and Processing</td>
+                  <td>Andrew Elsey</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Feb 2015</td>
+                  <td>Jade Templating: Basic Website with Node.js Express and Jade</td>
+                  <td>Andrew Elsey</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Mar 2015</td>
+                  <td>An Introduction to AngularDart</td>
+                  <td>Xiao Zheng</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Mar 2015</td>
+                  <td>#OmgTooMuchData: NoSQL Databases in MongoDB using AWS EC2</td>
+                  <td>Ahmed Haque</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Apr 2015</td>
+                  <td>Electric Imp - Door to the Internet of Things?</td>
+                  <td>Andrew Elsey</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Apr 2015</td>
+                  <td>Intro to Programming Microcontrollers: Exploring ADC</td>
+                  <td>Senthil Natarajan</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-        <!-- Row for the caption beneath the table -->
+          <!-- Row for the caption beneath the table -->
         <div class="row">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est ex, vestibulum eu tempor et, convallis et odio. Nullam porttitor feugiat metus, id vestibulum urna sodales dapibus. Aenean dapibus nisl dictum, viverra sem quis, viverra massa. Ut a tincidunt velit. Maecenas hendrerit aliquet ex. Ut sit amet venenatis augue. Suspendisse aliquet metus vel libero eleifend volutpat. In hac habitasse platea dictumst. Donec ornare scelerisque justo, at feugiat nisi faucibus ac. Morbi eleifend ultricies elit vitae euismod. Sed id libero non risus ultrices gravida.</p>
+          <div class="col-md-12">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est ex, vestibulum eu tempor et, convallis et odio. Nullam porttitor feugiat metus, id vestibulum urna sodales dapibus. Aenean dapibus nisl dictum, viverra sem quis, viverra massa. Ut a tincidunt velit. Maecenas hendrerit aliquet ex. Ut sit amet venenatis augue. Suspendisse aliquet metus vel libero eleifend volutpat. In hac habitasse platea dictumst. Donec ornare scelerisque justo, at feugiat nisi faucibus ac. Morbi eleifend ultricies elit vitae euismod. Sed id libero non risus ultrices gravida.</p>
+          </div>
         </div>
       </div>
 

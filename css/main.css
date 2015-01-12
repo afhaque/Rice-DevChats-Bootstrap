@@ -4,6 +4,18 @@
    Author's custom styles
    ========================================================================== */
 
+.col-md-12 {
+	padding-left: 0px
+}
+
+.left {
+	padding-left: 0px;
+}
+
+.right {
+	padding-right: 0px;
+}
+
 /* Glyph Icons */
 @font-face {
 	font-family: 'icomoon';
@@ -59,6 +71,9 @@
 	width: 100%;
 	height: 400px;
 }
+
+/* Back to top */
+
 
 
 
