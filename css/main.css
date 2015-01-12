@@ -1,4 +1,5 @@
 
+@import url("//fonts.googleapis.com/css?family=Roboto:400,700");
 
 /* ==========================================================================
    Author's custom styles
@@ -12,15 +13,22 @@
 	margin-bottom: 0px;
 	background-image: radial-gradient(#355CA1,#1D3157); 
 	color: white;
-
 }
-
 
 body {
 	/* background: url(../img/bkgs/highres_textures/8-Colorful-Paint-Textures-01.jpg) repeat 0 0; */
 	background: url(../img/bkgs/subtle_patterns/black_thread.png) repeat 0 0 ;
 }
 
+.centered {
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+}
+
+/*=======================================================================*/
 /* Glyph Icons */
 @font-face {
 	font-family: 'icomoon';
@@ -71,18 +79,13 @@ body {
 	content: "\e605";
 }
 
+/*=======================================================================*/
+
 /* Google Maps */
 #map-canvas {
 	width: 100%;
 	height: 400px;
 }
-
-/* Back to top */
-
-
-
-
-
 
 
 
