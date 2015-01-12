@@ -28,6 +28,10 @@ h1, h2, h3, h4 {
 	text-align: center;
 }
 
+.btn-toolbar {
+	padding-top: 20px;
+}
+
 /*=======================================================================*/
 /* Glyph Icons */
 @font-face {
@@ -101,8 +105,8 @@ h1, h2, h3, h4 {
 
 /* Google Maps */
 #map-canvas {
-	width: 100%;
-	height: 400px;
+	width: 100%%;
+	height: 300px;
 }
 
 
