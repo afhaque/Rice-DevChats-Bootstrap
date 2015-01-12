@@ -4,16 +4,12 @@
    Author's custom styles
    ========================================================================== */
 
-.col-md-12 {
-	padding-left: 0px
+.main-content {
+	background-color: white;
 }
 
-.left {
-	padding-left: 0px;
-}
-
-.right {
-	padding-right: 0px;
+body {
+	background: url(../img/bkgs/highres_textures/8-Colorful-Paint-Textures-05.jpg) repeat 0 0;
 }
 
 /* Glyph Icons */
