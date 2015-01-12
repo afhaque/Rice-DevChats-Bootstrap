@@ -11,13 +11,12 @@
 
 .jumbotron {
 	margin-bottom: 0px;
-	background-image: radial-gradient(#355CA1,#1D3157); 
+	/*background-image: radial-gradient(#355CA1,#1D3157); */
+	background: url(../img/bkgs/subtle_patterns/black_thread.png) repeat 0 0 ;
 	color: white;
 }
 
 body {
-	/* background: url(../img/bkgs/highres_textures/8-Colorful-Paint-Textures-01.jpg) repeat 0 0; */
-	background: url(../img/bkgs/subtle_patterns/black_thread.png) repeat 0 0 ;
 }
 
 .centered {
@@ -31,6 +30,15 @@ h1, h2, h3, h4 {
 .btn-toolbar {
 	padding-top: 20px;
 }
+
+.mapcaption {
+	padding-top: 15px;
+}
+
+.navbar-nav {
+	float:right;
+}
+
 
 /*=======================================================================*/
 /* Glyph Icons */
