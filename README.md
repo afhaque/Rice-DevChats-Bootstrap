@@ -20,9 +20,9 @@ If you get lost trying to complete these steps, post on the Facebook event or sh
 
 7. Once Sourcetree is installed, head to this [repository][repo] and grab the "HTTPS clone URL" listed. 
 
-8. Now, open Sourcetree and push the button titled: "Clone / New". Past the URL you just grabbed in the "Source Path / URL" entry. You can choose whichever Destination Path you like. Just make it one that is accessible -- this will be our working directory for the class.  At this point, you've "copied" all of the code (and steps) I used in creating the Rice DevChats website. This will help you trace back my steps (or catch-up) if you get lost during the workshop.
+8. Now, open Sourcetree and push the button titled: "Clone / New". Paste the URL you just grabbed in the "Source Path / URL" entry. You can choose whichever Destination Path you like. Just make it one that is accessible -- this will be our working directory for the class.  At this point, you've "copied" all of the code (and steps) I used in creating the Rice DevChats website. This will help you trace back my steps (or catch-up) if you get lost during the workshop.
 
-And at this point, you are all ready for the workshop! Feel free to explore the repo yourself in advance if you like (or don't!). We'll have a ton to cover, but hopefully, everyone will walk away with something!
+Now, you are all ready for the workshop! Feel free to explore the repo yourself in advance if you like (or don't!). We'll have a ton to cover, but hopefully, everyone will walk away with something!
 
 Looking forward to our event,
 
