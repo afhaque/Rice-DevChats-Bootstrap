@@ -57,7 +57,11 @@
         <h1><i class="icon-bubble"></i></h1>
         <h1>Rice DevChats</h1>
         <p>Student-led workshop series for Rice programmers, web developers, designers, and engineers.</p>
-        <p><a class="btn btn-primary btn-sm" href="#" role="button">Learn more &raquo;</a></p>
+        <div class="btn-group"> <!-- Button-group at top -->
+          <a class="btn btn-default btn-md" href="#" role="button">Learn more &raquo;</a>
+          <a class="btn btn-primary btn-md" href="#" role="button">Sign-up for our Listserv &raquo;</a>
+        </div>
+        
       </div>
     </div>
 
@@ -84,7 +88,7 @@
 
       <hr> <!-- Horizontal Line -->
 
-      <!-- Upcoming Events Section -->
+      <!-- About DevChats Section -->
       <div class="container">
         <!-- Row for the "About DevChats" Title -->
         <div class="row">
@@ -223,13 +227,72 @@
         <div class="row">
           <h2>Sign-Up</h2>
           <h3>This is a supercool subtitle!</h3>
+          <p>This is us being super inviting!</p>
         </div>
         <!-- Row for the Form -->
         <div></div>
         <!-- Row for the Button -->
         <div></div>
       </div>
-
+      <!-- Row for the Form -->
+      <div>
+        <form action="">
+          <div class="form-group"> <!-- Form Group for the Name label and input -->
+            <label for="">Name</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group"> <!-- Form Froup for the Email label and input -->
+            <label for="">Email</label>
+            <input type="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="">Major</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="">College</label>
+            <select class="form-control"> <!-- Select Box for College -->
+              <option>Baker</option>
+              <option>Brown</option>
+              <option>Duncan</option>
+              <option>Hanszen</option>
+              <option>Jones</option>
+              <option>Lovett</option>
+              <option>Martel</option>
+              <option>McMurtry</option>
+              <option>Will Rice</option>
+              <option>Sid Richardson</option>
+              <option>Wiess</option>
+              <option>Grad</option>
+              <option>Other / NA</option>
+            </select>
+            </div>
+            <div class="form-group">
+              <label for="">Areas of Interest</label>
+              <textarea class="form-control" rows="2" placeholder="Bootstrap, PHP, Node.Js, Microcontrollers, etc."></textarea>
+            </div>
+            <div class="form-inline"> <!-- In-line form elements -->
+                <div class="form-group">
+                  <label for="">Interested in Leading a Talk</label>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Yes!
+                  </label>
+                </div>
+                <div class="form-group"> 
+                  <input type="Enter Topic, Enter Possible Month" class="form-control">
+                </div>
+                <p></p>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-default btn-block">Submit</button> <!-- Submit Button -->
+            </div>
+        </form>
+      </div>
+      <!-- Row for the Button -->
+      <div></div>
+    </div>
       <hr> <!-- Horizontal Line -->
 
       <!-- Contact Section -->
@@ -248,6 +311,7 @@
       <hr> <!-- Horizontal Line -->
 
       <!-- Footer -->
+    <div class="container">
       <footer>
         <p>&copy; Copyright 2015 Rice DevChats | Maintained by the Fine Students of Rice University </p>
       </footer>
