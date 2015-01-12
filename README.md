@@ -28,7 +28,7 @@ Looking forward to our event,
 
 #####- Ahmed 
 
-<a href=""><img src="https://github.com/afhaque/Rice-DevChats-Bootstrap/blob/master/sketches/RiceDevChat-Sketch.png" width="300px" align="left"></a>
+<a href="https://github.com/afhaque/Rice-DevChats-Bootstrap/blob/master/sketches/RiceDevChat-Sketch.png"><img src="https://github.com/afhaque/Rice-DevChats-Bootstrap/blob/master/sketches/RiceDevChat-Sketch.png" width="300px" align="left"></a>
 
 <a href="https://github.com/afhaque/Rice-DevChats-Bootstrap/blob/master/sketches/devchatssite.png"><img src="https://github.com/afhaque/Rice-DevChats-Bootstrap/blob/master/sketches/devchatssite.png" width="400px"></a>
 
