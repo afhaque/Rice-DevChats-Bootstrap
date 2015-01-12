@@ -1,9 +1,9 @@
 # Rice-DevChats-Bootstrap
 This repository provides a walkthrough  build of the [Rice DevChats website][DevChats Site] using Twitter Bootstrap. The commits demonstrate the steps taken in going from a scratch build to a completed design.  We'll be looking through each of these steps in more depth at our first [Rice DevChat Event][Facebook].
 
-<a href="https://github.com/afhaque/Rice-DevChats-Bootstrap/blob/master/sketches/devchatssite.png"><img src="https://github.com/afhaque/Rice-DevChats-Bootstrap/blob/master/sketches/devchatssite.png" width="400px" ></a>
+<a href="https://github.com/afhaque/Rice-DevChats-Bootstrap/blob/master/sketches/devchatssite.png"><img src="https://github.com/afhaque/Rice-DevChats-Bootstrap/blob/master/sketches/devchatssite.png" width="200px" ></a>
 
-<a href=""><img src="https://github.com/afhaque/Rice-DevChats-Bootstrap/blob/master/sketches/RiceDevChat-Sketch.png" width="400px" ></a>
+<a href=""><img src="https://github.com/afhaque/Rice-DevChats-Bootstrap/blob/master/sketches/RiceDevChat-Sketch.png" width="200px" ></a>
 
 In order to come best prepared for the workshop, you'll need to complete a few steps in advance. While seasoned programmers can stray from these steps a bit if they'd like, I'm going to request all beginners to follow them as stated. It will help the workshop go more smoothly. I know it seems like a lot of steps, but it really will help in the long-run!
 
