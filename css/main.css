@@ -16,9 +16,6 @@
 	color: white;
 }
 
-body {
-}
-
 h1, h2, h3, h4 {
 	text-align: center;
 }
@@ -35,6 +32,10 @@ h1, h2, h3, h4 {
 	float:right;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
+{
+	background-color: #006687;
+}
 /*=======================================================================*/
 /* Glyph Icons */
 @font-face {
