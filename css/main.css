@@ -10,6 +10,9 @@
 
 .jumbotron {
 	margin-bottom: 0px;
+	background-image: radial-gradient(#273569,#252C45); 
+	color: white;
+
 }
 
 
