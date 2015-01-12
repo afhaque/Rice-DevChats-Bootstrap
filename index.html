@@ -371,7 +371,8 @@
         <!-- Row for the Caption with email -->
         <div class="row">
           <div class="col-md-12">
-            <p class = "text-center mapcaption">But honestly, the best way to reach us is via email: <a href="admins@ricedevchats.org">admins@ricedevchats.org</a> or through the <a href="https://www.facebook.com/groups/RiceDevs/">Rice Developers Facebook Group.</a> Happy coding!</p>
+            <p class = "text-center mapcaption">But seriously, how cool is this map? </p>
+            <p class = "text-center">The best way to reach us is via email: <a href="admins@ricedevchats.org">admins@ricedevchats.org</a> or through the <a href="https://www.facebook.com/groups/RiceDevs/">Rice Developers Facebook Group.</a> Happy coding!</p>
           </div>
         </div>
         <hr> <!-- Horizontal Line -->
@@ -404,11 +405,11 @@
             var mapOptions = {
               scrollwheel: false,
               center: new google.maps.LatLng(29.717394, -95.401831),
-              zoom: 15,
+              zoom: 17,
               mapTypeId: google.maps.MapTypeId.ROADMAP
             }
             var map = new google.maps.Map(mapCanvas, mapOptions);
-            var styles =  [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}];
+            var styles =  [{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#e0efef"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"hue":"#1900ff"},{"color":"#c0e8e8"}]},{"featureType":"landscape.man_made","elementType":"geometry.fill"},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":100},{"visibility":"simplified"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"color":"#7dcdcd"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"on"},{"lightness":700}]}]
             var styledMap = new google.maps.StyledMapType(styles, {name: "Styled Map"});
 
             map.mapTypes.set('map_style', styledMap);
