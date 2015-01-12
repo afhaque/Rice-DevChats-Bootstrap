@@ -26,7 +26,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -35,15 +35,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Rice DevChats</a>
+          <a class="navbar-brand" href="#">Rice DevChats {<i class="icon-bubble"></i>}</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="" class="nav-btn">About DevChats</a></li>
-            <li><a href="" class="nav-btn">Upcoming Events</a></li>
-            <li><a href="" class="nav-btn">Past Events</a></li>
-            <li><a href="" class="nav-btn">Sign-Up</a></li>
-            <li><a href="" class="nav-btn">Contact</a></li>
+            <li><a href="#about" class="nav-btn">About DevChats</a></li>
+            <li><a href="#upcoming" class="nav-btn">Upcoming Events</a></li>
+            <li><a href="#past" class="nav-btn">Past Events</a></li>
+            <li><a href="#signup" class="nav-btn">Sign-Up</a></li>
+            <li><a href="#contact" class="nav-btn">Contact</a></li>
           </ul>
 
         </div><!--/.navbar-collapse -->
@@ -53,19 +53,18 @@
     <!-- Main jumbotron for Rice DevChats Logo-->
     <div class="jumbotron">
       <div class="container">
-        <h1><i class="icon-console" style="float:left"></i></h1>
-        <h1><i class="icon-bubble"></i></h1>
+        <h1>{<i class="icon-bubble"></i>}</h1>
         <h1>Rice DevChats</h1>
         <p>Student-led workshop series for Rice programmers, web developers, designers, and engineers.</p>
         <div class="btn-group"> <!-- Button-group at top -->
-          <a class="btn btn-default btn-md" href="#" role="button">Learn more &raquo;</a>
-          <a class="btn btn-primary btn-md" href="#" role="button">Sign-up for our Listserv &raquo;</a>
+          <a class="btn btn-default btn-md" href="#about" role="button">Learn more &raquo;</a>
+          <a class="btn btn-primary btn-md" href="#signup" role="button">Sign-up for our Listserv &raquo;</a>
         </div>
         
       </div>
     </div>
 
-    <!-- About DevChats Section -->
+    <!-- Intro Section -->
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
@@ -86,6 +85,7 @@
         </div>
       </div>
 
+      <section id="about"></section>
       <hr> <!-- Horizontal Line -->
 
       <!-- About DevChats Section -->
@@ -116,6 +116,7 @@
         </div>
       </div>
 
+      <section id="upcoming"></section>
       <hr> <!-- Horizontal Line -->
 
       <!-- Upcoming Events Section -->
@@ -182,6 +183,7 @@
         </div>
       </div>
 
+      <section id="past"></section>
       <hr> <!-- Horizontal Line -->
       
       <!-- Past Events Section -->
@@ -219,6 +221,7 @@
         </div>
       </div>
 
+      <section id="signup"></section>
       <hr>  <!-- Horizontal Line -->
 
       <!-- Sign-Up Section -->
@@ -293,6 +296,8 @@
       <!-- Row for the Button -->
       <div></div>
     </div>
+
+      <section id="contact"></section>
       <hr> <!-- Horizontal Line -->
 
       <!-- Contact Section -->
