@@ -1,16 +1,10 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?-zcd1v2');
-	src:url('../fonts/icomoon.eot?#iefix-zcd1v2') format('embedded-opentype'),
-		url('../fonts/icomoon.woff?-zcd1v2') format('woff'),
-		url('../fonts/icomoon.ttf?-zcd1v2') format('truetype'),
-		url('../fonts/icomoon.svg?-zcd1v2#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-zcd1v2');
+	src:url('fonts/icomoon.eot?#iefix-zcd1v2') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-zcd1v2') format('woff'),
+		url('fonts/icomoon.ttf?-zcd1v2') format('truetype'),
+		url('fonts/icomoon.svg?-zcd1v2#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -52,20 +46,4 @@
 .icon-bubble:before {
 	content: "\e605";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
