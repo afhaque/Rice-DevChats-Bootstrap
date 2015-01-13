@@ -14,7 +14,7 @@ If you get lost trying to complete these steps, post on the Facebook event or sh
  
 4. Repeat the above step, but this time when prompted, you will install the package named: "HTML5".
 
-5. Repeat the above again for "SublimeLinter", "Alignment", and SublimeCodeIntel". 
+5. Repeat the above again for "Alignment", and SublimeCodeIntel". 
 
 6. Now that you have Sublime set-up, download and install Atlassian's Source Tree (http://www.sourcetreeapp.com/) - Source Tree is a very easy to use Git Client that will be helpful in pulling commits as we go through the workshop.
 
