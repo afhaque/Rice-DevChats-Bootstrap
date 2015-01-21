@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Rice DevChats</title>
+        <meta name="Rice DevChats" content="Based out of Rice University, Rice DevChats is a student-led workshop series on all things programming, web development, design, electronics, engineering, and more. Our focus is on providing students with a venue for sharing their practical skills with their peers.">
+        <meta property="og:image" content="http://ricedevchats.org/sketches/devchatslogo.jpg">
+        <meta property="og:description" content="Rice DevChats Student-led workshops on web development, programming, electronics, and more. Based out of Rice University.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS --> 
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- Bootstrap Style -->
+        <link rel="stylesheet" href="css/bootstrap_alts/yeti-bootstrap.min.css">
+        
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+
+        <!-- Scrolling Nav CSS -->
+        <link rel="stylesheet" href="css/scrolling-nav.css">
+
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body id="page-top" style="padding-top: 10px;">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div class="container">
+      <div class="row">
+    <!-- Main jumbotron for Rice DevChats Logo-->
+        <div class="jumbotron" style="padding-bottom: 10px; padding-top: 10px;">
+            <h1><strong>Rice DevChats {<i class="icon-bubble"></i>}</strong></h1>
+          </div>
+      </div> 
+    </div> 
+  
+      <!-- Sign-Up Section -->
+      <div class="container main-content">
+        <!-- Row for the "Sign-Up" Title -->
+        <div class="row">
+          <div class="col-md-12">
+            <h3><strong>Student Feedback Form</strong></h3>  
+            <h4>Attend one of our workshops? Let us know what you thought!</h4>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+        <form action="#" id="ajax-form">
+          <div class="form-group"> <!-- Form Group for the Name label and input -->
+            <label for="">Name</label>
+            <input type="text" class="form-control" name="name">
+          </div>
+          <div class="form-group"> <!-- Form Froup for the Email label and input -->
+            <label for="">Email</label>
+            <input type="email" class="form-control" name="email">
+          </div>
+          <div class="form-group">
+            <label for="">Major</label>
+            <input type="text" class="form-control" name="major">
+          </div>
+          <div class="form-group">
+            <label for="">College</label>
+            <select class="form-control" name="college"> <!-- Select Box for College -->
+              <option value="Baker">Baker</option>
+              <option value="Brown">Brown</option>
+              <option value="Duncan">Duncan</option>
+              <option value="Hanszen">Hanszen</option>
+              <option value="Jones">Jones</option>
+              <option value="Lovett">Lovett</option>
+              <option value="Martel">Martel</option>
+              <option value="McMurtry">McMurtry</option>
+              <option value="Will Rice">Will Rice</option>
+              <option value="Sid Richardson">Sid Richardson</option>
+              <option value="Wiess">Wiess</option>
+              <option value="Grad">Grad</option>
+              <option value="Other">Other / NA</option>
+            </select>
+          </div>
+          <div class="form-group">
+              <label for="">Which workshop did you attend?</label>
+              <input type="text" class="form-control" placeholder="Introduction to Zen Buddhism" name="workshoptitle">
+          </div>
+            <div class="form-group =">
+                <label class="radio control-label" for="">On a scale of 1-10 (10 being best) how would you rate this workshop?</label>
+                  <label class="radio-inline">
+                    <input type="radio" name="rating" id="inlineRadio1" value="1"> 1
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="rating" id="inlineRadio2" value="2"> 2
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="rating" id="inlineRadio3" value="3"> 3
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="rating" id="inlineRadio4" value="4"> 4
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="rating" id="inlineRadio5" value="5"> 5
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="rating" id="inlineRadio6" value="3"> 6
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="rating" id="inlineRadio7" value="4"> 7
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="rating" id="inlineRadio8" value="5"> 8
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="rating" id="inlineRadio9" value="5"> 9
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="rating" id="inlineRadio10" value="5"> 10
+                  </label>
+            </div>
+          <div class="form-group">
+              <label for="">What do you feel was your biggest takeaway?</label>
+              <textarea class="form-control" rows="2" placeholder="I learned the secret to happiness and prosperity." name="takeaway"></textarea>
+          </div>
+          <div class="form-group">
+              <label for="">Overall Review:</label>
+              <textarea class="form-control" rows="5" placeholder="It was good. Real goood!" name="areaofinterest"></textarea>
+          </div>
+            <div class="form-group =">
+                <label class="radio control-label" for="">Would you attend another workshop by this instructor?</label>
+                  <label class="radio-inline">
+                    <input type="radio" name="instructoragain" id="inlineRadio1" value="yes"> Yes
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="instructoragain" id="inlineRadio2" value="no"> No
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="instructoragain" id="inlineRadio3" value="depends"> Depends on Topic
+                  </label>
+            </div>
+            <div class="form-group">
+                <button type="submit" value="Form Submit" data-toggle= "modal" data-target=".confirmation-modal-lg" class="btn btn-primary center-block"><span class="glyphicon glyphicon-check"></span> Submit</button> 
+                
+                <!-- Confirmation Modal -->
+                <div class="modal fade confirmation-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h3 class="modal-title"><strong>Thanks for the Review!</strong></h3>
+                      </div>
+                      <div class="modal-body">
+                        <h4 class="text-center">Stay tuned for future events.</h4></h4>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-default .modal-center" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </form>
+      <section id="contact"></section>
+      <hr> <!-- Horizontal Line -->
+      </div>
+
+      <!-- Footer -->
+    <div class="container main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <footer>
+            <p class="text-center">&copy; Copyright 2015 Rice DevChats | Maintained by the <a href="https://github.com/afhaque/Rice-DevChats-Bootstrap">Fine Students of Rice University </a></p>
+          </footer>
+        </div>
+      </div>
+    </div> 
+
+        <!-- Javascripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <!-- Modal Triggering / Form Submission-->
+        <script type="text/javascript">
+          $('#ajax-form').submit(function(){
+            $.ajax({
+              dataType: 'jsonp',
+              url: "http://getsimpleform.com/messages/ajax?form_api_token=5d1ed4bc935ba7a00773f958ea0d0b62",
+              data: $('#ajax-form').serialize() 
+            }).done(function() {
+              //callback which can be used to show a thank you message
+              //and reset the form
+            });
+            return false; //to stop the form from submitting
+          });
+        </script>
+
+        <!-- Backstretch -->
+        <script src="js/vendor/jquery.backstretch.min.js"></script>
+        <!-- Optional backstretch -->
+        <script>$.backstretch("img/bkgs/stock_images/unsplash_5244800b1ebf4_1.jpg");</script> 
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
