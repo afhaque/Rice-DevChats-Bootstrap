@@ -51,8 +51,8 @@
         <!-- Row for the "Sign-Up" Title -->
         <div class="row">
           <div class="col-md-12">
-            <h3><strong>Student Feedback Form</strong></h3>  
-            <h4>Attend one of our workshops? Let us know what you thought!</h4>
+            <h3><strong>Rice DevChat Workshop</strong></h3>  
+            <h4>Sign-in Form</h4>
           </div>
         </div>
       <div class="row">
@@ -66,59 +66,38 @@
             <label for="">Email</label>
             <input type="email" class="form-control" name="email">
           </div>
-            <div class="form-group =">
-                <label class="radio control-label" for="">On a scale of 1-10 (10 being best) how would you rate this workshop?</label>
-                  <label class="radio-inline">
-                    <input type="radio" name="rating" id="inlineRadio1" value="1"> 1
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="rating" id="inlineRadio2" value="2"> 2
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="rating" id="inlineRadio3" value="3"> 3
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="rating" id="inlineRadio4" value="4"> 4
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="rating" id="inlineRadio5" value="5"> 5
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="rating" id="inlineRadio6" value="3"> 6
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="rating" id="inlineRadio7" value="4"> 7
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="rating" id="inlineRadio8" value="5"> 8
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="rating" id="inlineRadio9" value="5"> 9
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="rating" id="inlineRadio10" value="5"> 10
-                  </label>
-            </div>
           <div class="form-group">
-              <label for="">What do you feel was your biggest takeaway?</label>
-              <textarea class="form-control" rows="2" placeholder="I learned the secret to happiness and prosperity." name="takeaway"></textarea>
+            <label for="">Major</label>
+            <input type="text" class="form-control" name="major">
           </div>
           <div class="form-group">
-              <label for="">Overall Review:</label>
-              <textarea class="form-control" rows="5" placeholder="It was good. Real goood!" name="areaofinterest"></textarea>
+            <label for="">College</label>
+            <select class="form-control" name="college"> <!-- Select Box for College -->
+              <option value="Baker">Baker</option>
+              <option value="Brown">Brown</option>
+              <option value="Duncan">Duncan</option>
+              <option value="Hanszen">Hanszen</option>
+              <option value="Jones">Jones</option>
+              <option value="Lovett">Lovett</option>
+              <option value="Martel">Martel</option>
+              <option value="McMurtry">McMurtry</option>
+              <option value="Will Rice">Will Rice</option>
+              <option value="Sid Richardson">Sid Richardson</option>
+              <option value="Wiess">Wiess</option>
+              <option value="Grad">Grad</option>
+              <option value="Other">Other / NA</option>
+            </select>
           </div>
-            <div class="form-group =">
-                <label class="radio control-label" for="">Would you attend another workshop by this instructor?</label>
-                  <label class="radio-inline">
-                    <input type="radio" name="instructoragain" id="inlineRadio1" value="yes"> Yes
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="instructoragain" id="inlineRadio2" value="no"> No
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="instructoragain" id="inlineRadio3" value="depends"> Depends on Topic
-                  </label>
-            </div>
+          <div class="form-group">
+            <label for="">How would you describe your current web-development skills?</label>
+            <select class="form-control" name="skill"> <!-- Select Box for College -->
+              <option value="Expert">Expert</option>
+              <option value="Fiddler">HTML/CSS Fiddler</option>
+              <option value="Coder, New to Web">Coder getting started with web</option>
+              <option value="Designer">Experience with design. New to HTML/CSS</option>
+              <option value="Jones">Total noob.</option>
+            </select>
+          </div>
             <div class="form-group">
                 <button type="submit" value="Form Submit" data-toggle= "modal" data-target=".confirmation-modal-lg" class="btn btn-primary center-block"><span class="glyphicon glyphicon-check"></span> Submit</button> 
                 
@@ -128,10 +107,10 @@
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h3 class="modal-title"><strong>Thanks for the Review!</strong></h3>
+                        <h3 class="modal-title"><strong>Thanks for signing-in!</strong></h3>
                       </div>
                       <div class="modal-body">
-                        <h4 class="text-center">Stay tuned for future events.</h4></h4>
+                        <h4 class="text-center">Prepare to have your mind-blown and/or not.</h4></h4>
                       </div>
                       <div class="modal-footer">
                           <button type="button" class="btn btn-default .modal-center" data-dismiss="modal">Close</button>
@@ -167,7 +146,7 @@
           $('#ajax-form').submit(function(){
             $.ajax({
               dataType: 'jsonp',
-              url: "http://getsimpleform.com/messages/ajax?form_api_token=5d1ed4bc935ba7a00773f958ea0d0b62",
+              url: "http://getsimpleform.com/messages/ajax?form_api_token=99ddc1ce2489d6791cca08946c4b7cdf",
               data: $('#ajax-form').serialize() 
             }).done(function() {
               //callback which can be used to show a thank you message
